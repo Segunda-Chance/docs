@@ -14,12 +14,13 @@ INSERT INTO tb_categorias(nome_categoria, tipo)
 VALUES ("Esportes", "produto");
 
 
--- Criando tabela 
+-- Criando tabela usuarios
 CREATE TABLE tb_usuarios(
 id BIGINT AUTO_INCREMENT,
 nome_usuario VARCHAR(255) NOT NULL,
 usuario VARCHAR(80) NOT NULL,
 senha VARCHAR(16) NOT NULL,
+foto VARCHAR(5000) NOT NULL,
 PRIMARY KEY(id));
 
 -- Inserção de dados na tabela usuarios
